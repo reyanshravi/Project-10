@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@media screen and (max-width: 1070px) {
+  .container{
+    display: none;
+  }
+}
+@media screen and (min-width: 1070px) {
+  .hide {
+    display: none;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: #fff;
+}
+body{
+  background-image: url(../images/background.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.container{
+  background: rgba(32,42,68,0.8);
+  height: 100vh;
+  width: 100%;
+  padding: 30px 80px;
+}
+
+/* Navbar CSS */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 15px;
+}
+.logo{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 30px;
+}
+ul{
+  display: flex;
+}
+.list li{
+  list-style-type: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.list li:first-child{
+  padding-left: 0px;
+}
+.navbar .icon-phone{
+  color: #fff;
+}
+.list-main{
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+}
+.mob{
+  display: flex;
+}
+.mob span{
+  font-size: 23px;
+  padding-right: 6px;
+  transform: rotate(-45deg);
+}
+
+/* CSS for Context */
+.hero{
+  text-align: left;
+}
+.hero-heading{
+  font-weight: 800;
+  font-size: 70px;
+  padding-top: 100px;
+  line-height: 85px; 
+}
+.button-large{
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 20px 40px ;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+
+/* CSS for fixed two boxes */
+.fixbox-1{
+  height: 120px;
+  width: 250px;
+  background-color: rgba(201, 201, 201, 0.3);
+  position: absolute;
+  right: 80px;
+  bottom: 300px;
+}
+.fixbox-2{
+  height: 140px;
+  width: 250px;
+  background-color: rgba(201, 201, 201, 0.3);
+  position: absolute;
+  right: 300px;
+  bottom: 50px;
+}
+.content{
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.content .icon{
+  background-color: #fff;
+  padding: 6px 20px;
+  border-radius: 30px;
+}
+.fixbox-1 .content .line{
+  position: relative;
+  transform: rotate(90deg);
+  left: 130px;
+  bottom: -38px;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+.fixbox-1 .content .circle{
+  position: relative;
+  left: 147px;
+  bottom: -52px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.fixbox-2 .content .line{
+  position: relative;
+  left: 230px;
+  bottom: 70px;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+.fixbox-2 .content .circle{
+  position: relative;
+  left: 280px;
+  bottom: 78px;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.icon i{
+  color: black;
+}
+.content p{
+  padding-top: 20px;
+  font-size: 12px;
+}
