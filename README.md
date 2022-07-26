@@ -22,4 +22,4 @@
 
 #### Screenshot
 
-![Desktop](./image/interior.png)
+![Desktop](./interior.png)
